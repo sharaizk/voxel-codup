@@ -1,0 +1,21 @@
+.home_hero_container {
+  height: 39.05vh;
+  max-height: 380px;
+  padding: 0 1rem;
+  position: relative;
+
+  &::before {
+    background-color: var(--white-light);
+    content: "";
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(/images/hero_bg.png);
+    background-size: cover;
+    background-position: center center;
+  }
+}
